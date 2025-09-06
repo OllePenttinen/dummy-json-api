@@ -7,12 +7,12 @@ app.use(express.json());
 let entries = JSON.parse(fs.readFileSync('entries.json', 'utf8'));
 
 // GET entries
-app.get('/entries.json', (req, res) => {
+app.get('/api/v1/entries.json', (req, res) => {
   res.json(entries);
 });
 
 // POST new entry
-app.post('/entries.json', (req, res) => {
+app.post('/api/v1/entries.json', (req, res) => {
   const newEntry = req.body;
   if (!newEntry || !newEntry.value || !newEntry.timestamp) {
     return res.status(400).json({ error: 'Invalid entry' });
