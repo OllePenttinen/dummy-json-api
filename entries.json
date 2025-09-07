@@ -1,22 +1,22 @@
 [
   {
-    "date": 1736315400000,
-    "dateString": "2025-09-06T23:55:00.000Z",
-    "sgv": 110,
+    "date": 1736310300000,
+    "dateString": "2025-09-07T09:55:00+02:00",
+    "sgv": 115,
     "direction": "Flat",
     "type": "sgv"
   },
   {
-    "date": 1736315700000,
-    "dateString": "2025-09-06T23:50:00.000Z",
+    "date": 1736310000000,
+    "dateString": "2025-09-07T09:50:00+02:00",
     "sgv": 112,
     "direction": "Flat",
     "type": "sgv"
   },
   {
-    "date": 1736316000000,
-    "dateString": "2025-09-06T23:45:00.000Z",
-    "sgv": 115,
+    "date": 1736309700000,
+    "dateString": "2025-09-07T09:45:00+02:00",
+    "sgv": 110,
     "direction": "Flat",
     "type": "sgv"
   }
