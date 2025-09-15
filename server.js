@@ -33,7 +33,7 @@ app.post('/api/v1/entries.json', (req, res) => {
   }
 
   const newEntry = {
-    _id: `demo${entries.length + 1}`,
+    _id: `pkg${entries.length + 1}`,
     sgv,
     direction: direction || "Flat",
     type: "sgv",
