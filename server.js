@@ -42,7 +42,7 @@ app.post('/api/v1/entries.json', (req, res) => {
   };
 
   entries.unshift(newEntry);
-  entries = entries.slice(0, 30); // keep last 30
+  entries = entries.slice(0, 36); // keep last 36
   fs.writeFileSync('entries.json', JSON.stringify(entries, null, 2));
 
   res.json({ status: 'ok', entry: newEntry });
